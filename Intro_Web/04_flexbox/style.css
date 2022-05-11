@@ -1,0 +1,109 @@
+
+
+.main {
+    border: 2px solid black;
+    height: 1700px;
+    width: 1700px;
+    /*primer paso es usar flex*/
+    display: flex;
+    /*mueve los elementos en el eje x*/
+    justify-content: space-around;
+    /*movwer los elementos en el eje y*/
+    align-items: center;
+    /*flex-direction nos cambia los elementos a columna e invierte nuestros ejes*/
+}
+
+.secundary{
+    border: 2px burlywood solid;
+    width: 25%;
+    height: 25%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secundarydos{
+    border: 2px burlywood solid;
+    width: 25%;
+    height: 25%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.tres{
+    border: 2px blue solid;
+    width: 25%;
+    height: 25%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+#especial{
+    flex-direction: column;
+}
+
+.cuadrosuno{
+    border: 2px red solid;
+    width: 25%;
+    height: 25%;
+}
+
+.cuadrosdos{
+    border: 2px red solid;
+    width: 25%;
+    height: 25%;
+}
+
+.cuadrostres{
+    border: 2px red solid;
+    width: 25%;
+    height: 25%;
+}
+
+.tresyuno{
+    border: 2px blue solid;
+    width: 25%;
+    height: 25%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#especialdos{
+    flex-direction: column;
+}
+
+#especialtres{
+    flex-direction: column;
+}
+
+.cuadroscuatro{
+    border: 2px red solid;
+    width: 25%;
+    height: 25%;
+    flex-direction: column;
+}
+
+.cuadroscinco{
+    border: 2px red solid;
+    width: 25%;
+    height: 25%;
+}
+
+.cuadrosseis{
+    border: 2px red solid;
+    width: 25%;
+    height: 25%;
+    flex-direction: column;
+}

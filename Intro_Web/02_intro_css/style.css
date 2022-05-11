@@ -1,0 +1,25 @@
+
+/*selector de etiqueta*/
+
+body{
+    background-color: #faebd7;
+}
+
+
+p{
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/*selector de etiqueta*/
+
+.rojo{
+    color: royalblue;
+}
+
+#especial{
+    color: gold;
+    font-size: 35px;
+    font-style: italic;
+}
